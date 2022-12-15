@@ -1,3 +1,11 @@
+The N#StoP.py is the code that gives you the csv that contains the number of solutes around each monomer chain. 
+
+Download the code and run the command 
+
+'python3 N#StoP.py'
+
+Enter then the gro file name and the polymer and solute names
+
 The first part of the code prompts the user to input the name of the file, and then attempts to open the file and read it in. If the file cannot be opened, an error message is displayed and the user is prompted to try again.
 
 Once the file has been successfully opened, the code asks the user to input the names of two different residues, referred to as the "polymer" and the "solute". It then asks the user to input a search radius value in nanometers.
