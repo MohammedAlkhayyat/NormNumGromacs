@@ -2,7 +2,9 @@ The N#StoP.py is the code that gives you the csv that contains the number of sol
 
 Download the code and run the command 
 
-'python3 N#StoP.py'
+```
+python3 N#StoP.py'
+```
 
 Enter then the gro file name and the polymer and solute names
 
