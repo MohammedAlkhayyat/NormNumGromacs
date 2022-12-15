@@ -1,9 +1,9 @@
 The N#StoP.py is the code that gives you the csv that contains the number of solutes around each monomer chain. 
 
-Download the code and run the command 
+Download the code and run the command on your terminal
 
 ```
-python3 N#StoP.py'
+python3 N#StoP.py
 ```
 
 Enter then the gro file name and the polymer and solute names
@@ -23,3 +23,6 @@ Next, the code imports the NumPy library and converts the rows in the pol_rows a
 The code then defines another function named num_points_within_radius which takes 3 arguments: pol_rows, sol_rows, and radius. This function loops through the elements of the pol_rows list, and for each element it loops through the elements of the sol_rows list. For each pair of elements, it calculates the distance between the x, y, and z coordinates and compares it to the radius. If the distance is less than or equal to the radius, it increments a counter. After all pairs have been compared, the function appends the final value of the counter to a list and returns the list.
 
 Finally, the code calls the num_points_within_radius function, passing it the pol_rows, sol_rows, and num variables as arguments, and prints the result.
+
+
+For visullization, take the csv and code into an editor or colab, change the r value according to your system
